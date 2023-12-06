@@ -11,7 +11,7 @@ on:
     outputs:
       current-time:
         description: 'The time when greeting.'
-        value: ${{ jobs.reusable-job.outputs.current-time }}
+        value: ${{ jobs.reusable-job.outputs.time }}
 
 jobs:
   reusable-job:
